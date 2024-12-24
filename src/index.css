@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+    --color-brand-50: #ebfbff;
+    --color-brand-100: #d1f5ff;
+    --color-brand-200: #a8ecff;
+    --color-brand-300: #7ae2ff;
+    --color-brand-400: #52d9ff;
+    --color-brand-500: #24ceff;
+    --color-brand-600: #00b8eb;
+    --color-brand-700: #0088ad;
+    --color-brand-800: #005c75;
+    --color-brand-900: #002c38;
+    --color-brand-950: #00181f;
+}
