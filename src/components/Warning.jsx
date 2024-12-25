@@ -5,7 +5,7 @@ const Warning = () => {
     return (
         <div className='flex  flex-col items-center py-8 gap-8   '>
 
-            <h1 className='font-kanit text-brand-100 text-4xl'>Disclaimer</h1>
+            <h1 className='font-kanit text-brand-100 text-2xl font-bold lg:text-4xl'>Disclaimer</h1>
 
             <div className='flex flex-col lg:flex-row  lg:p-8     '>
 
