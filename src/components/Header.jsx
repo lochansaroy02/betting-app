@@ -1,10 +1,10 @@
 import React from 'react'
-import logo from "../images/logo.png"
+import logo from "../images/logoOrange-removebg-preview.png"
 const Header = () => {
 
     const menu = ['About', 'contact', 'sponsors']
     return (
-        <div className=' fixed  w-full z-10 backdrop-blur-lg   bg-opacity-50 border-b flex  justify-between items-center border-brand-700  bg-brand-950 '>
+        <div className=' fixed  w-full z-10 backdrop-blur-lg   bg-opacity-50 border-b flex  justify-between items-center border-orange-700  bg-orange-950 '>
             <div className='lg:h-20 h-16    ml-8  w-28  '>
                 <img className='h-full w-full object-contain  ' src={logo} alt="" />
             </div>

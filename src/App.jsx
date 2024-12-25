@@ -11,7 +11,7 @@ const App = () => {
     <div className='relative'>
       <Header />
       <Hero />
-      <CallToAction />
+      {/* <CallToAction /> */}
       <Sponsor />
       <Warning />
       <Services />

@@ -9,7 +9,7 @@ const CallToAction = () => {
             <h1 className='font-kanit text-2xl text-brand-50 font-semibold'>Take the call and start the game </h1>
             <div>
                 {
-
+                    
 
                 }
             </div>
