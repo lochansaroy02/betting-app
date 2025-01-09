@@ -1,6 +1,9 @@
 import React from "react";
 import heroImage from "../images/hero-image.png";
-const Hero = () => {
+const Hero = ({ scrollToServices }) => {
+
+
+
   return (
     <div className=" flex py-8    flex-col relative lg:flex-row   ">
 
@@ -18,7 +21,7 @@ const Hero = () => {
         </h1>
         <p className="font-kanit text-xl lg:text-2xl text-brand-100   ">India's most trusted betting site</p>
         <div className="mt-8  ">
-          <button className="bg-orange-800  hover:bg-orange-900 lg:px-6 px-4 py-2 mt-2    lg:py-2 lg:text-2xl text-lg font-semibold rounded-full border border-orange-200  text-orange-400 font-lato ">Get Started</button>
+          <button onClick={scrollToServices} className="bg-orange-800  hover:bg-orange-900 lg:px-6 px-4 py-2 mt-2    lg:py-2 lg:text-2xl text-lg font-semibold rounded-full border border-orange-200  text-orange-400 font-lato ">Get Started</button>
         </div>
       </div>
     </div>
