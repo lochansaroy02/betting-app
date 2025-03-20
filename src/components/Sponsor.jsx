@@ -17,9 +17,9 @@ const Sponsor = () => {
 
   return (
 
-    <div className='flex flex-col bg-orange-950 py-8   items-center gap-4    '>
+    <div className='flex flex-col bg-purple-950 py-8   items-center gap-4    '>
 
-      <h1 className='text-orange-50 lg:text-4xl text-2xl font-bold font-kanit'>Our Partners</h1>
+      <h1 className='text-purple-50 lg:text-4xl text-2xl font-bold font-kanit'>Our Partners</h1>
       <div className='grid grid-cols-1 gap-4  p-8   lg:grid-cols-2 w-full  justify-around'>
         {
           arr.map((item) => (
@@ -32,7 +32,7 @@ const Sponsor = () => {
                   <img className='h-full w-full object-contain' src={item.image} alt="" />
                 </button>
               </div>
-              {/* <button className='lg:text-2xl text-xl  text-orange-100 font-lato'>Tutorial</button> */}
+              {/* <button className='lg:text-2xl text-xl  text-purple-100 font-lato'>Tutorial</button> */}
             </div>
           ))
         }
