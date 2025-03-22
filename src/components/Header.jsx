@@ -15,7 +15,7 @@ const Header = () => {
         window.open(link, "_blank");
     }
     return (
-        <div className='cursor-pointer fixed  top-0 w-full z-10 backdrop-blur-lg   bg-opacity-50 border-b flex  justify-between items-center border-purple-700  bg-purple-950 '>
+        <div className='cursor-pointer fixed  top-0 w-full z-10 backdrop-blur-lg   bg-opacity-50 border-b flex  justify-between items-center border-yellow-700  bg-yellow-950 '>
             <div onClick={() => {
                 navigate("/")
             }} className='lg:h-20 h-16 ml-8  w-28  '>
@@ -23,7 +23,7 @@ const Header = () => {
             </div>
 
             <div className='flex gap-2 mr-4'>
-                <button onClick={handleClick} className='bg-purple-800 text-sm  flex items-center justify-center lg:gap-4 gap-2  px-4 py-2 rounded-xl  font-lato font-bold text-purple-300 border border-purple-400 '> Play Now  <span>   <FaArrowRight />
+                <button onClick={handleClick} className='bg-yellow-800 text-sm  flex items-center justify-center lg:gap-4 gap-2  px-4 py-2 rounded-xl  font-lato font-bold text-yellow-300 border border-yellow-400 '> Play Now  <span>   <FaArrowRight />
                 </span> </button>
             </div>
 
