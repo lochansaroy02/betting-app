@@ -16,7 +16,8 @@ export default {
       },
       fontFamily: {
         "lato": ['Lato', 'sans-serif'],
-        "kanit": ["Kanit", "serif"]
+        "kanit": ["Kanit", "serif"],
+        "snasm": ['"Snasm W05 Regular"', 'sans-serif'],
       },
       "colors": {
         "brand": {

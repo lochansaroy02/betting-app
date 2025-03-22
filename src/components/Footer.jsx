@@ -9,33 +9,33 @@ const Footer = () => {
         window.open(link, "_blank");
     }
     return (
-        <div className='bg-black-900 gap-10 lg:gap-0  p-4 border-t flex lg:flex-row flex-col items-center justify-between px-8  border-yellow-500 '>
+        <div className='bg-black-900 gap-10 lg:gap-0  p-4 border-t flex lg:flex-row flex-col items-center justify-between px-8  border-blue-500 '>
             <div className='flex flex-col items-center gap-2  lg:items-start '>
-                <h1 className='text-yellow-50 text-lg    lg:text-lg'>Customer Support </h1>
+                <h1 className='text-blue-50 text-lg    lg:text-lg'>Customer Support </h1>
                 <div className='flex    gap-2 cursor-none  '>
                     <button className='flex  gap-2  items-center justify-center' >
-                        <span className='text-yellow-50 text-xl '><FaPhoneAlt /></span>
-                        <h1 className='text-yellow-50 lg:text-base text-sm '>+91 9088598836 </h1>
+                        <span className='text-blue-50 text-xl '><FaPhoneAlt /></span>
+                        <h1 className='text-blue-50 lg:text-base text-sm '>+91 9088598836 </h1>
                     </button>
 
-                    <h1 className='text-yellow-50'>|</h1>
+                    <h1 className='text-blue-50'>|</h1>
 
                     <button onClick={handleClick} className='flex  gap-2  items-center  '>
-                        <span className='text-yellow-50 text-xl '><FaTelegram /></span>
-                        <h1 className='text-yellow-50 lg:text-base text-sm'> Telegram</h1>
+                        <span className='text-blue-50 text-xl '><FaTelegram /></span>
+                        <h1 className='text-blue-50 lg:text-base text-sm'> Telegram</h1>
                     </button>
                 </div>
             </div>
 
             <div className='flex flex-col items-center lg:items-end '>
 
-                <p className='text-sm  text-yellow-50 '>Copyright © 2024 7xBET - All Rights Reserved.</p>
-                <p className='text-yellow-50'>powered by <span onClick={() => {
+                <p className='text-sm  text-blue-50 '>Copyright © 2024 7xBET - All Rights Reserved.</p>
+                <p className='text-blue-50'>powered by <span onClick={() => {
                     //go to this link
                     window.open("https://www.godaddy.com", "_blank");
 
                 }}
-                    className='text-yellow-500 text-sm cursor-pointer'>GoDaddy</span></p>
+                    className='text-blue-500 text-sm cursor-pointer'>GoDaddy</span></p>
             </div>
         </div>
     )

@@ -15,13 +15,13 @@ const Hero = ({ scrollToServices }) => {
 
         <h1 className="text-neutral-100  lg:text-6xl  text-2xl   top-2   font-semibold font-kanit">Welcome to</h1>
         <h1 className="text-[6rem] italic  leading-none  top-20  text-brand-50 font-serif font-bold lg:text-10xl ">7x
-          <span className="text-yellow-400  font-serif ">
+          <span className="text-blue-400  font-snasm ">
             BET
           </span>
         </h1>
         <p className="font-kanit text-xl lg:text-2xl text-brand-100   ">India's most trusted betting site</p>
         <div className="mt-8  ">
-          <button onClick={scrollToServices} className="bg-yellow-800  hover:bg-yellow-900 lg:px-6 px-4 py-2 mt-2    lg:py-2 lg:text-2xl text-lg font-semibold rounded-full border border-yellow-200  text-yellow-400 font-lato ">Get Started</button>
+          <button onClick={scrollToServices} className="bg-blue-800  hover:bg-blue-900 lg:px-6 px-4 py-2 mt-2    lg:py-2 lg:text-2xl text-lg font-semibold rounded-full border border-blue-200  text-blue-400 font-lato ">Get Started</button>
         </div>
       </div>
     </div>
