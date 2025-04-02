@@ -1,6 +1,5 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import sp1 from "../images/sponser1.jpg"
+import sp1 from "../images/sp1.png"
 import sp2 from "../images/sponser2.jpg"
 import sp3 from "../images/sponser3.jpg"
 import sp4 from "../images/sponser4.jpg"
@@ -8,7 +7,6 @@ import sp4 from "../images/sponser4.jpg"
 const Sponsor = () => {
 
 
-  const navigate = useNavigate();
   const arr = [
     { name: "logo1", image: sp1, navigateUrl: "/go-exchange" },
     { name: "logo2", image: sp2, navigateUrl: "/laser" },
